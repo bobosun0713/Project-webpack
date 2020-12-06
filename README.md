@@ -3,6 +3,8 @@
 
 > 開發服務器顯示:npx webpack-dev-server
 
+## 安裝/使用 方式
+> 終端機輸入 : npm i
 1. css -  CSS or Sass
 2. image - 存放照片
 3. js - 存放 (入口文件為 : index.js)
