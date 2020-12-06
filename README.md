@@ -1,7 +1,7 @@
 # 專案 (開發說明) - webpack
 > 輸出文件 : webpack
 
-> 開發服務器顯示:npx webpack-dev-server
+> 開發服務器顯示 : npx webpack-dev-server
 
 ## 安裝/使用 方式
 > 終端機輸入 : npm i
