@@ -63,7 +63,8 @@ module.exports = {
       單一文件只需輸入你要輸出的JS文件名稱就可以。
         filename: "js/自訂義.js",
 
-      多個入口時，需使用[name.js]去輸出文件，否則多個文建會被合併成一個JS，文件名稱為入口文件名稱。
+      多個入口時，需使用[name]去輸出文件，否則多個JS文件被合併成一個JS文件。
+      文件名稱為入口文件名稱。
        filename: "js/[name].js"
     */
     filename: 'js/built.js',
