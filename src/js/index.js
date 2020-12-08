@@ -1,6 +1,6 @@
 // import '@babel/polyfill'; // 全部JS兼容性，直接引入就好
 import '../scss/index.scss';
-import '../css/le.css'
+import '../css/style.css'
 
 
 
