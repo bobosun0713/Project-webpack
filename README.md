@@ -50,6 +50,13 @@ const commonCssLoader2 = [
 
 module.exports = {
   mode: 'development',
+  //入口文件可以設置多個，如要設置多個須使用物件包起來
+  /* 
+  entry:{
+    entry1 :./src/js/index.js',
+    entry2 : './src/js/index.js'
+  }
+  */
   entry: './src/js/index.js',
   output: {
     filename: 'js/built.js',
@@ -158,6 +165,8 @@ module.exports = {
     // 處理html資源
     new HtmlWebPlugin({
       template: './src/index.html',
+      // chunks 配置指定生成的HTML文件應該引入哪個JS。配置chunks之後，才能达到不同的 HTML 只引入對影的chunks陣列中的文件。
+      // chunks:[],
       // html壓縮
       minify: {
         // 移除空格
