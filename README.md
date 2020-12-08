@@ -59,6 +59,13 @@ module.exports = {
   */
   entry: './src/js/index.js',
   output: {
+     /*
+      單一文件只需輸入你要輸出的JS文件名稱就可以。
+        filename: "js/自訂義.js",
+
+      多個入口時，需使用[name.js]去輸出文件，否則多個文建會被合併成一個JS，文件名稱為入口文件名稱。
+       filename: "js/[name].js"
+    */
     filename: 'js/built.js',
     path: resolve(__dirname, 'build'),
   },
@@ -165,7 +172,7 @@ module.exports = {
     // 處理html資源
     new HtmlWebPlugin({
       template: './src/index.html',
-      // chunks 配置指定生成的HTML文件應該引入哪個JS。配置chunks之後，才能达到不同的 HTML 只引入對影的chunks陣列中的文件。
+      // chunks 配置指定生成的HTML文件應該引入哪個JS。配置chunks之後，才能达到不同的 HTML 只引入對應的chunks陣列中的文件。
       // chunks:[],
       // html壓縮
       minify: {
