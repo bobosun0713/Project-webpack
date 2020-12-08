@@ -1,5 +1,5 @@
 # 專案 (開發說明) - webpack
-> 輸出文件 : webpack
+> 輸出文件 : npm run dev
 
 > 開發服務器顯示 : npx webpack-dev-server
 
