@@ -5,6 +5,7 @@
 
 ## 安裝/使用 方式
 > 1.終端機輸入 : npm install webpack webpack-cli -g (安裝在全域環境下)
+
 > 2.終端機輸入 : npm i (安裝專案內package.json裡的套件)
 1. css -  CSS or Sass
 2. image - 存放照片
