@@ -4,7 +4,8 @@
 > 開發服務器顯示 : npx webpack-dev-server
 
 ## 安裝/使用 方式
-> 終端機輸入 : npm i
+> 1.終端機輸入 : npm install webpack webpack-cli -g (安裝在全域環境下)
+> 2.終端機輸入 : npm i (安裝專案內package.json裡的套件)
 1. css -  CSS or Sass
 2. image - 存放照片
 3. js - 存放 (入口文件為 : index.js)
