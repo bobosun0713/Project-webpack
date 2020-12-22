@@ -15,7 +15,7 @@ tag: 待更新開發環境與生產環境切換。
 
 ## 目前packge.json版本，目前可以使用，之後持續更新，以下代碼有包含註解。
 
-```
+```javascript=
 const { resolve } = require('path');
 const HtmlWebPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
